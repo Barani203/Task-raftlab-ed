@@ -35,6 +35,7 @@ app.use(bodyParser.json());
  app.use(cors(option))
 //convert to json data
 app.use(express.json())
+app.use(express.static('public'))
 
 let tasklist = []
 
